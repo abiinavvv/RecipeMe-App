@@ -127,7 +127,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                 'Email: abhinavaneesh2@gmail.com\n'
                 '''Address: Hustle Hub Tech park
                 Hsr Layout Sector 2''',
-                style: TextStyle(fontSize: 16),
+                style: TextStyle(fontSize: 17),
               ),
             ],
           ),
