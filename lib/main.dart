@@ -7,7 +7,6 @@ import 'screens/home_screen.dart';
 import 'screens/saved_recipes_screen.dart';
 import 'screens/search_screen.dart';
 import 'screens/profile_screen.dart';
-import 'screens/shopping_list_screen.dart'; 
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'models/shopping_list_provider.dart';
@@ -72,7 +71,6 @@ class MainScreenState extends State<MainScreen> {
       const SearchScreen(),
       const AddEditRecipeScreen(),
       const SavedRecipesScreen(),
-      const ShoppingListScreen(), 
       ProfileScreen(hiveService: hiveService),
     ];
 
@@ -94,9 +92,6 @@ class MainScreenState extends State<MainScreen> {
               size: 30,
               color: appState.isDarkMode ? Colors.white : Colors.orange),
           Icon(Icons.favorite,
-              size: 30,
-              color: appState.isDarkMode ? Colors.white : Colors.orange),
-          Icon(Icons.shopping_cart, // Add this icon
               size: 30,
               color: appState.isDarkMode ? Colors.white : Colors.orange),
           Icon(Icons.person,
