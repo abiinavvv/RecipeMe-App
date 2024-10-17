@@ -13,7 +13,7 @@
 //   final List<ChatMessage> _messages = [];
 
 //   // API Key for Gemini AI
-//   final String apiKey = "AIzaSyBhPPSTI8OgYUy2kqWAIECU_-7nbWTZYE8"; // Replace with your actual API key
+//   final String apiKey = ""; // Replace with your actual API key
 
 //   Future<void> sendMessage(String message) async {
 //     final model = GenerativeModel(
