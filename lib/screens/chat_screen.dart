@@ -142,7 +142,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _controller = TextEditingController();
   final List<ChatMessage> _messages = [];
   final ScrollController _scrollController = ScrollController();
-  final String apiKey = "AIzaSyBhPPSTI8OgYUy2kqWAIECU_-7nbWTZYE8"; // Replace with your actual API key
+  final String apiKey = ""; // Replace with your actual API key
 
   Future<void> sendMessage(String message) async {
     final model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: apiKey);
