@@ -24,14 +24,14 @@ class HiveService {
 
   Future<void> saveRecipe(Recipe recipe) async {
     try {
-      await savedRecipesBox.put(recipe.label, recipe);
+      await savedRecipesBox.put(recipe.label,recipe);
     } catch (e) {
       print("Error saving recipe: $e");
     }
   }
 
   Future<void> unsaveRecipe(Recipe recipe) async {
-    await savedRecipesBox.delete(recipe.uri);
+    await savedRecipesBox.delete(recipe.label);
   }
 
   Future<List<Recipe>> getSavedRecipes() async {

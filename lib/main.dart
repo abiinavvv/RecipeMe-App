@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
           theme: ThemeData.light(),
           darkTheme: ThemeData.dark(),
           themeMode: appState.isDarkMode ? ThemeMode.dark : ThemeMode.light,
-          home: const MainScreen(),
+          home:  const MainScreen(),
         );
       },
     );
@@ -68,7 +68,7 @@ class MainScreenState extends State<MainScreen> {
     final appState = Provider.of<AppState>(context);
     final List<Widget> widgetOptions = <Widget>[
       HomeScreen(hiveService: hiveService,),
-      const SearchScreen(),
+     SearchScreen(hiveService: hiveService,),
       const AddEditRecipeScreen(),
       const SavedRecipesScreen(),
       ProfileScreen(hiveService: hiveService),
@@ -85,16 +85,16 @@ class MainScreenState extends State<MainScreen> {
           Icon(Icons.home,
               size: 30,
               color: appState.isDarkMode ? Colors.white : Colors.orange),
-          Icon(Icons.search,
+          Icon(Icons.search_rounded,
               size: 30,
               color: appState.isDarkMode ? Colors.white : Colors.orange),
-          Icon(Icons.add,
+          Icon(Icons.add_circle_outline_outlined,
               size: 30,
               color: appState.isDarkMode ? Colors.white : Colors.orange),
           Icon(Icons.favorite,
               size: 30,
               color: appState.isDarkMode ? Colors.white : Colors.orange),
-          Icon(Icons.person,
+          Icon(Icons.person_rounded,
               size: 30,
               color: appState.isDarkMode ? Colors.white : Colors.orange),
         ],

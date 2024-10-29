@@ -154,7 +154,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             _buildRecipeSection('My Recipes', userRecipes, true),
             const SizedBox(height: 20),
             _buildRecipeSection(
-                'Recently Visited Recipes', visitedRecipes, false),
+                'Recently Viewed Recipes', visitedRecipes, false),
           ],
         ),
       ),
