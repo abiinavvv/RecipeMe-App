@@ -484,7 +484,7 @@ class _RecentRecipesGrid extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 16, vertical: 20),
             child: Text(
-              'Popular Recipes',
+              'Recipes you have Visited',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,

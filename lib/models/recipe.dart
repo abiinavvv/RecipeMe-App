@@ -31,13 +31,13 @@ class Recipe extends HiveObject {
       ingredientLines: List<String>.from(json['ingredientLines']),
     );
   }
-  // Map<String, dynamic> toJson() {
-  //   return {
-  //     'uri': uri,
-  //     'label': label,
-  //     'image': image,
-  //     'source': source,
-  //     'ingredientLines ': ingredientLines
-  //   };
-  // }
+  Map<String, dynamic> toJson() {
+    return {
+      'uri': uri,
+      'label': label,
+      'image': image,
+      'source': source,
+      'ingredientLines ': ingredientLines
+    };
+  }
 }

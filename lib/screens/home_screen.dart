@@ -689,7 +689,7 @@ class _HomeScreenState extends State<HomeScreen> {
         builder: (context) => ProfileScreen(hiveService: widget.hiveService),
       ),
     ).then((_) {
-      _loadUserProfile();
+      //_loadUserProfile();
     });
   }
 
