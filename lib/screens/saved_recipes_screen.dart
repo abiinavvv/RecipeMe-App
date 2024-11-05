@@ -6,9 +6,11 @@ import 'recipe_detail_screen.dart';
 
 class SavedRecipesScreen extends StatelessWidget {
   const SavedRecipesScreen({super.key});
+  
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -33,6 +35,7 @@ class SavedRecipesScreen extends StatelessWidget {
                 title: recipe.label,
                 imageUrl: recipe.image,
                 source: recipe.source,
+                recipe: recipe,
                 onTap: () {
                   Navigator.push(
                     context,
