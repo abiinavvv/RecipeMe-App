@@ -479,6 +479,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           title: recipe.label,
                           imageUrl: recipe.image,
                           source: recipe.source,
+                          recipe: recipe,
                           onTap: () {
                             Navigator.of(context).push(
                               MaterialPageRoute(

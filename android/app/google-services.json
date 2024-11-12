@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1006388502742",
+    "project_id": "recipeme-c11db",
+    "storage_bucket": "recipeme-c11db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006388502742:android:93b328f0aea2eb82cda977",
+        "android_client_info": {
+          "package_name": "com.abhi.recipeme_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh6VCzQR31vqDiv3rBd6qmYc42NM9Xq8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

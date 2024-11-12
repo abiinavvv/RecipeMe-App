@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "recipeme-c11db",
+          "appId": "1:1006388502742:android:93b328f0aea2eb82cda977",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "recipeme-c11db",
+          "configurations": {
+            "android": "1:1006388502742:android:93b328f0aea2eb82cda977",
+            "ios": "1:1006388502742:ios:aa5630308ab13ec7cda977",
+            "macos": "1:1006388502742:ios:aa5630308ab13ec7cda977",
+            "web": "1:1006388502742:web:ef880812c611feeacda977",
+            "windows": "1:1006388502742:web:da992f441d27ce16cda977"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
